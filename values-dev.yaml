@@ -1,0 +1,8 @@
+  service:
+    loadBalancerIP: ""
+    type: LoadBalancer #change to NodePort, ClusterIP or LoadBalancer if need be
+    ports:
+    - port: 80
+      name: http
+    - port: 443
+      name: https
